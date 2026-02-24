@@ -65,7 +65,7 @@ from sentence_transformers import SentenceTransformer
 # df_data = pd.concat([fake_news_data,df], axis=0)
 # df_data = df_data.sample(frac=1, random_state=42).reset_index(drop=True)
 df_data = pd.read_csv(r"C:\Users\KIIT0001\Desktop\Mini_Project_Folder\Dataset\dataset_file.csv")
-df_data = df_data.sample(n=100)
+# df_data = df_data.sample(n=100)
 # for index, text in df_data["text"].items():
 #     text = str(text)
 #     text = re.sub(r'<.*?>', '', text)
